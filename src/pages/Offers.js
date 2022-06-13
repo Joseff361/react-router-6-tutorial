@@ -1,11 +1,11 @@
-import { useState } from "react"
+import { useState } from 'react';
 
 export default function Offers() {
   const [items] = useState([
     { title: 'Ninja Hoodie', price: 21.99 },
     { title: 'Ninja Sneakers', price: 34.99 },
-    { title: 'Ninja Tee', price: 12.99 }
-  ])
+    { title: 'Ninja Tee', price: 12.99 },
+  ]);
 
   return (
     <div>
@@ -20,5 +20,5 @@ export default function Offers() {
         ))}
       </div>
     </div>
-  )
+  );
 }
